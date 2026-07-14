@@ -13,11 +13,57 @@ A Python automation tool that detects server errors and uses Groq's Llama 3.1 AI
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| Language | Python 3.9+ |
-| AI Model | Groq Llama 3.1 70B (free tier) |
-| Cloud Ready | AWS (S3, EC2 - ready to integrate) |
-| OS | Linux / Windows / macOS |
+| Category  Technology 
+|----------------------
+| Language | Python 3.9+ 
+| AI Model | Groq Llama 3.1 70B (free tier) 
+| Cloud Ready | AWS (S3, EC2 - ready to integrate) 
+| OS | Linux / Windows / macOS 
 
 ## 📸 Sample Output
+
+
+
+## 📂 Project Structure
+AI-Server-Auto-Healer/
+├── main.py # Main automation script
+├── requirements.txt # Python dependencies
+├── .env # Your secret API key (ignored by Git)
+├── .gitignore # Protects secrets from being uploaded
+└── reports/ # Generated JSON reports (ignored by Git)
+
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repository
+bash
+git clone https://github.com/justiceaidoo47/AI-Server-Auto-healer.git
+cd AI-Server-Auto-healer
+
+
+
+#create virtual environment.#
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+
+#install dependecies#
+pip install -r requirements.txt
+
+
+
+
+#set up your API_KEY #
+GROQ_API_KEY=gsk_your_real_api_key_here
+
+
+
+
+
+
+
+
+#RUN THE SCRIPT#
+python main.py
+
+
