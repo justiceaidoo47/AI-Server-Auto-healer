@@ -1,0 +1,25 @@
+# Secrets - NEVER commit these!
+.env
+*.env
+*.key
+*.pem
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Generated folders
+reports/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

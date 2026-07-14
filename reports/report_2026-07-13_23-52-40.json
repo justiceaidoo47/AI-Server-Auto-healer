@@ -1,9 +1,0 @@
-{
-    "timestamp": "2026-07-13_23-52-40",
-    "error": "CRITICAL: nginx service failed to start. Port 80 is already in use by another process.",
-    "diagnosis": {
-        "root_cause": "Unknown (API error)",
-        "fix_command": "systemctl restart nginx",
-        "risk": "High"
-    }
-}
